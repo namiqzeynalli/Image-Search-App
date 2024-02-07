@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Tinos", sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #eeeee4;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrapper {
+    width: 100%;
+    margin: 30px 0;
+}
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchInput {
+    width: 70%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px 0;
+    font-size: large;
+    margin-bottom: 10px;
+} 
+.searchButton {
+    background-color: #273c89;
+    color: #fff;
+    padding: 7px 25px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition:  all .4s;
+}
+.clearButton {
+    background-color: #8f3b76;
+    color: #fff;
+    padding: 7px 25px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition:  all .4s;
+}
+.searchButton:hover {
+    background-color: #160556;
+    box-shadow: 3px 5px 7px #273c89;
+    padding: 8px 26px;
+    font-size: x-large;
+}
+.clearButton:hover {
+    background-color: #580434;
+    box-shadow: 3px 5px 7px #982b91;
+    padding: 8px 26px;
+    font-size: x-large;
+}
+.searchResults {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.card {
+    margin: 20px 30px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.card:hover {
+    box-shadow: 3px 5px 7px grey;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #d3c8b5;
+    padding: 5px;
+}
+.footerIcons {
+    font-size: x-large;
+    padding: 5px 0;
+}
+.footerBottom {
+    font-size: large;
+}
